@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+:root {
+    --cor1: #D9CBA3;
+    --cor2: grey;
+    --cor3: #59341E;
+    --cor4: #26190D;
+    --cor5: #1B0D00;
+}
+
+@font-face {
+    font-family: 'Inlanders';
+    src: url('../fontes/Inlanders\ Demo.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Impacto';
+    src: url('../fontes/Impacto\ Final!.ttf') format('truetype');
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body{
+    background-color: #19180A;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #19180A, black);
+    padding: 30px;
+    text-align: center;
+    min-height: 150px;
+
+}
+
+header h1 {
+    font-family: 'Impacto';
+    font-size: 3em;
+    font-weight: bold;
+    color: white;
+    text-shadow: 7px 10px 1px black;
+}
+
+header > p {
+    padding: 25px;
+    font-family: 'Impacto';
+    font-weight: bold;
+    font-size: 1.5em;
+    color: white;
+    text-shadow: 7px 10px 1px black;
+}
+
+nav {
+    background-color: black;
+    padding: 10px;
+    box-shadow: 2px 2px 20px 5px black
+
+}
+
+nav > a {
+    margin-right: 20px;
+    color: white;
+    font: bold 1em arial;
+    padding: 10px;
+    text-decoration: none;
+    
+}
+
+nav a:hover {
+    text-decoration: underline;
+    background-color: #19180A;
+
+}
+
+main {
+    background-color: white;
+    margin: auto;
+    padding: 30px;
+    min-width: 250px;
+    max-width: 1000px;
+
+}
+
+main h1 {
+    font-family: 'Impacto';
+    font-size: 3em;
+    font-weight: bold;
+    text-indent: 20px;
+    background-image: linear-gradient(to right, #19180A, white);
+    padding: 5px;
+}
+
+main h2 {
+    font-family: 'Inlanders';
+    font-size: 2em;
+    font-weight: normal;
+    text-indent: 20px;
+    padding: 5px;
+    background-image: linear-gradient(to right, #19180A, white);
+} 
+
+main p {
+    text-indent: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2em;
+    text-align: justify;
+    font-weight: normal;
+    margin: 10px;
+
+}
+
+strong.tlou {
+    font-family: 'Impacto';
+}
+img {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+img.metade{
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+div.video {
+    background-color: #19180A;
+    margin: 10px;
+    padding: 10px;
+    padding-bottom: 58.8%;
+    position: relative;
+
+}
+
+div.video iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
